@@ -5,4 +5,4 @@ App is intended for mobile browsers.
 
 ## Demo
 
-https://cleaning-app.surge.sh/#/step1
+https://vladotesanovic.github.io/cleaning-app
