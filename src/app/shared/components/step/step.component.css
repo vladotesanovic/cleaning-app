@@ -1,0 +1,23 @@
+.step-container {
+  padding-top: 35px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.right-part, .left-part {
+  flex-grow: 1;
+}
+.middle-part {
+  margin-top: 4px;
+}
+.stroke {
+  border: 2px solid #7FCDE6;
+}
+.title {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 14px;
+  color: #5B6F81;
+}

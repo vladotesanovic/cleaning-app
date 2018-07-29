@@ -1,0 +1,31 @@
+<capp-header [total]="( offer$ | async)?.total"></capp-header>
+
+<capp-step [left]="true" [right]="true" title="STEP 3"></capp-step>
+
+<div class="services-container margin-5-percent">
+  <div class="home-container">
+    <h3 class="step-title">When</h3>
+  </div>
+  <div class="service-group">
+    <div class="service" [ngClass]="{'then': !isNow, 'now': isNow}" (click)="setThen()">
+      Then
+    </div>
+    <div class="service" [ngClass]="{'then': isNow, 'now': !isNow}" (click)="now()">
+      Now
+    </div>
+  </div>
+  <div class="space-between"></div>
+  <div class="home-container">
+    <h3 class="step-title">Date</h3>
+  </div>
+  <div class="service-group">
+    <div class="service single">
+      <input [ngModel]="( offer$ | async)?.when | date:'yyyy-MM-dd'" type="date" (change)="onDateChange($event)" />
+    </div>
+    <div class="service" >
+
+    </div>
+  </div>
+</div>
+
+<capp-button (click)="goToFinalStep()" label="FINAL STEP"></capp-button>

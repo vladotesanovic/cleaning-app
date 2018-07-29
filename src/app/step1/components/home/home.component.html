@@ -1,0 +1,91 @@
+<capp-header [total]="(offer$ | async)?.total"></capp-header>
+
+<capp-step [right]="true" title="STEP 1"></capp-step>
+
+<div class="home-container">
+  <h3 class="step-title">Choose what to clean</h3>
+  <div class="caption">+ {{serviceCost | currency}} PER ITEM</div>
+</div>
+
+<div class="services-container">
+  <div class="service-group">
+    <div class="service">
+      <svg width="121" height="120" viewBox="0 0 121 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M60 120C93.1371 120 120 93.1371 120 60C120 26.8629 93.1371 0 60 0C26.8629 0 0 26.8629 0 60C0 93.1371 26.8629 120 60 120Z" transform="translate(1)" fill="#FAFAFA"/>
+        <path d="M0.193143 0C0.193143 0 -0.871904 5.08501 2 9" transform="translate(117 88) scale(-1 1)" stroke="#8198AC" stroke-width="2"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 2C6 0.89543 4.65685 0 3 0C1.34315 0 0 0.89543 0 2" transform="translate(34 98) scale(1 -1)" fill="#F2FAFC"/>
+        <path d="M6 2C6 0.89543 4.65685 0 3 0C1.34315 0 0 0.89543 0 2" transform="translate(34 98) scale(1 -1)" stroke="#8198AC" stroke-width="2"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 2C6 0.89543 4.65685 0 3 0C1.34315 0 0 0.89543 0 2" transform="translate(90 98) scale(1 -1)" fill="#F2FAFC"/>
+        <path d="M6 2C6 0.89543 4.65685 0 3 0C1.34315 0 0 0.89543 0 2" transform="translate(90 98) scale(1 -1)" stroke="#8198AC" stroke-width="2"/>
+        <rect x="1" y="1" width="66" height="11" transform="translate(31 83)" stroke="#8198AC" stroke-width="2"/>
+        <path d="M1.03789 13C1.54851 6.28755 7.15677 1 14 1H52C58.8432 1 64.4515 6.28755 64.9621 13H1.03789Z" transform="translate(32 71)" fill="white" stroke="#8198AC" stroke-width="2" stroke-linejoin="bevel"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.2084 10.3804C4.98035 10.3804 6.41679 8.05667 6.41679 5.1902C6.41679 2.32373 4.98035 0 3.2084 0C1.43645 0 0 2.32373 0 5.1902C0 8.05667 1.43645 10.3804 3.2084 10.3804Z" transform="translate(104.71 80.2202) rotate(-20)" fill="#7FCDE6"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.2084 10.3804C4.98035 10.3804 6.41679 8.05667 6.41679 5.1902C6.41679 2.32373 4.98035 0 3.2084 0C1.43645 0 0 2.32373 0 5.1902C0 8.05667 1.43645 10.3804 3.2084 10.3804Z" transform="translate(119.29 80.2202) scale(-1 1) rotate(-20)" fill="#7FCDE6"/>
+        <rect x="1" y="1" width="53" height="19" transform="translate(38 52)" stroke="#8198AC" stroke-width="2"/>
+        <rect width="49" height="13" transform="translate(42 56)" fill="white"/>
+        <path d="M-1 4V5H0H20H21V4C21 1.23858 18.7614 -1 16 -1H4C1.23858 -1 -1 1.23858 -1 4Z" transform="translate(42 67)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5032 0.548706C18.4244 1.41132 19 2.63843 19 4H0.0555973C0.405418 1.7345 2.36379 0 4.72727 0H15.2906C16.09 0 16.843 0.198425 17.5032 0.548706Z" transform="translate(43 66)" fill="#7FCDE6"/>
+        <path d="M-1 4V5H0H20H21V4C21 1.23858 18.7614 -1 16 -1H4C1.23858 -1 -1 1.23858 -1 4Z" transform="translate(68 67)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <path d="M0.164706 1H12" transform="translate(105 87)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5032 0.548706C18.4244 1.41132 19 2.63843 19 4H0.0555983C0.405419 1.7345 2.36379 0 4.72727 0H15.2906C16.09 0 16.843 0.198425 17.5032 0.548706Z" transform="translate(69 66)" fill="#7FCDE6"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 8C4.65685 8 6 6.20914 6 4C6 1.79086 4.65685 0 3 0C1.34315 0 0 1.79086 0 4C0 6.20914 1.34315 8 3 8Z" transform="translate(103.813 80.2673) rotate(-20)" fill="#7FCDE6"/>
+        <path d="M0.193143 0C0.193143 0 -0.871904 5.08501 2 9" transform="translate(105 88)" stroke="#8198AC" stroke-width="2"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.2084 10.3804C4.98035 10.3804 6.41679 8.05667 6.41679 5.1902C6.41679 2.32373 4.98035 0 3.2084 0C1.43645 0 0 2.32373 0 5.1902C0 8.05667 1.43645 10.3804 3.2084 10.3804Z" transform="translate(101.71 79.2202) rotate(-20)" stroke="#8198AC" stroke-width="2"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.2084 10.3804C4.98035 10.3804 6.41679 8.05667 6.41679 5.1902C6.41679 2.32373 4.98035 0 3.2084 0C1.43645 0 0 2.32373 0 5.1902C0 8.05667 1.43645 10.3804 3.2084 10.3804Z" transform="translate(114.26 77.0255) rotate(20)" fill="#7FCDE6" stroke="#8198AC" stroke-width="2"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M2.13799 12C1.38142 10.8766 0.89225 9.0907 0.89225 7.07965C0.89225 3.67966 2.29041 0.923431 4.01512 0.923431C4.35925 0.923431 4.69039 1.03317 5 1.23584C4.47749 0.45993 3.82743 0 3.12287 0C1.39816 0 0 2.75623 0 6.15622C0 8.87778 0.895874 11.1869 2.13799 12Z" transform="translate(108 76)" fill="white"/>
+        <rect x="1" y="1" width="23" height="17" transform="translate(0 75)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3.5 13C5.433 13 7 10.0899 7 6.5C7 2.91015 5.433 0 3.5 0C1.567 0 0 2.91015 0 6.5C0 10.0899 1.567 13 3.5 13Z" transform="translate(108 75)" fill="#7FCDE6" stroke="#8198AC" stroke-width="2"/>
+        <rect x="1" y="1" width="15" height="9" transform="translate(4 79)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <path d="M0.958619 1.5H4" transform="translate(10 82)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <path d="M0.170886 0.5H53.8291" transform="translate(14 37)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <path d="M0.985601 1.5H9" transform="translate(106 95)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <rect x="1" y="1" width="7" height="11" transform="translate(57 22)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <rect width="4" height="8" transform="translate(60 25)" fill="#7FCDE6"/>
+        <rect x="1" y="1" width="5" height="6" transform="translate(54 28)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <rect x="0.5" y="0.5" width="1" height="10" transform="translate(14 25)" fill="#D8D8D8" stroke="#8198AC"/>
+        <rect x="0.5" y="0.5" width="1" height="10" transform="translate(17 25)" fill="#D8D8D8" stroke="#8198AC"/>
+        <rect width="2" height="5" transform="translate(56 30)" fill="#7FCDE6"/>
+        <rect x="0.5" y="0.5" width="1" height="10" transform="translate(20 25)" fill="#D8D8D8" stroke="#8198AC"/>
+        <rect x="0.5" y="0.5" width="1" height="10" transform="translate(23.0262 26.5682) rotate(-35)" fill="#D8D8D8" stroke="#8198AC"/>
+        <rect width="16" height="8" transform="translate(92 28)" fill="#7FCDE6"/>
+        <rect x="1" y="1" width="19" height="11" transform="translate(88 24)" stroke="#8198AC" stroke-width="2"/>
+        <path d="M-1 4V5H0H20H21V4C21 1.23858 18.7614 -1 16 -1H4C1.23858 -1 -1 1.23858 -1 4Z" transform="translate(42 67)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.1552 0.628632C18.6832 1.27481 19 2.1004 19 3H0.0750122C0.422464 1.28833 1.93578 0 3.75 0H16.0761C16.8451 0 17.5601 0.231506 18.1552 0.628632Z" transform="translate(43 68)" fill="#7FCDE6"/>
+        <path d="M-1 4V5H0H20H21V4C21 1.23858 18.7614 -1 16 -1H4C1.23858 -1 -1 1.23858 -1 4Z" transform="translate(68 67)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M18.1552 0.628632C18.6832 1.27481 19 2.1004 19 3H0.0750132C0.422465 1.28833 1.93578 0 3.75 0H16.0761C16.8451 0 17.5601 0.231506 18.1552 0.628632Z" transform="translate(69 68)" fill="#7FCDE6"/>
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M1.99138 10.8861C1.38907 9.88184 1 8.29086 1 6.5C1 3.46243 2.11929 1 3.5 1C3.67428 1 3.8444 1.03925 4.00863 1.11392C3.58933 0.414795 3.06668 0 2.5 0C1.11929 0 0 2.46243 0 5.5C0 8.15414 0.854557 10.3692 1.99138 10.8861Z" transform="translate(109 76)" fill="white"/>
+        <path d="M0.155556 1H7" transform="translate(9 72)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <path d="M0.5 27V0" transform="translate(12 47)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <rect x="1" y="1" width="11" height="13" transform="translate(6 45)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <rect width="7" height="9" transform="translate(10 49)" fill="#7FCDE6"/>
+        <rect x="1" y="1" width="5" height="6" transform="translate(54 28)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <rect width="2" height="3" transform="translate(57 31)" fill="#7FCDE6"/>
+      </svg>
+      <capp-controls title="Bad" [counter]="(offer$ | async)?.beds" (increase)="onIncreaseBad($event)" (decrease)="onDecreaseBad($event)"></capp-controls>
+    </div>
+    <div class="service">
+      <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M60 120C93.1371 120 120 93.1371 120 60C120 26.8629 93.1371 0 60 0C26.8629 0 0 26.8629 0 60C0 93.1371 26.8629 120 60 120Z" fill="#FAFAFA"/>
+        <path d="M1 1H65V8C65 15.732 58.732 22 51 22H15C7.26802 22 1 15.732 1 8V1Z" transform="translate(46 81)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <path d="M0.378641 1H70" transform="translate(44 81)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <path d="M1 40V0" transform="translate(106 41.5)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <path d="M18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9" transform="translate(89 32)" stroke="#8198AC" stroke-width="2"/>
+        <path d="M5 1H0" transform="translate(86.5 40)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <rect x="1" y="1" width="22" height="26" transform="translate(11 76)" stroke="#8198AC" stroke-width="2"/>
+        <rect x="1" y="1" width="22" height="26" transform="translate(11 34)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <rect width="18" height="23" transform="translate(15 38)" fill="#7FCDE6"/>
+        <path d="M1 0.5V26" transform="translate(22 77)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <path d="M0.5 1H3" transform="translate(23 89)" stroke="#8198AC" stroke-width="2" stroke-linecap="square"/>
+        <rect x="1" y="1" width="28" height="3" transform="translate(8 73)" fill="white" stroke="#8198AC" stroke-width="2"/>
+        <rect x="0.5" y="0.5" width="29" height="1" transform="translate(8 60)" fill="white" stroke="#8198AC"/>
+        <rect width="2" height="5" rx="1" transform="translate(22 70)" fill="#8198AC"/>
+        <path d="M0 0L8 21" transform="translate(94 51)" stroke="#7FCDE6" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 5"/>
+        <path d="M0 0L8 21" transform="translate(85 51) scale(-1 1)" stroke="#7FCDE6" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 5"/>
+        <path d="M1 0.396552V23" transform="translate(88 50)" stroke="#7FCDE6" stroke-width="2" stroke-linecap="square" stroke-dasharray="1 5"/>
+      </svg>
+      <capp-controls title="Bath" [counter]="(offer$ | async)?.baths" (increase)="onIncreaseBath($event)" (decrease)="onDecreaseBath($event)"></capp-controls>
+    </div>
+  </div>
+</div>
+
+<capp-button (click)="goToStep2()" label="NEXT STEP"></capp-button>

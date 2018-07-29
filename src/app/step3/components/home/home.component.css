@@ -1,0 +1,13 @@
+.then {
+  background-color: #8198AC;
+  color: white;
+  padding: 20px;
+  border-radius: 3px;
+}
+
+.now {
+  background-color: #FAFAFA;
+  color: #8198AC;
+  padding: 20px;
+  border-radius: 3px;
+}

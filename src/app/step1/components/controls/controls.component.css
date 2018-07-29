@@ -1,0 +1,16 @@
+.buttons-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  padding: 0 10px;
+  color: #5B6F81;
+  font-size: 12px;
+}
+
+.right svg, .left svg {
+  cursor: pointer;
+}

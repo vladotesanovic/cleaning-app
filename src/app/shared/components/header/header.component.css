@@ -1,0 +1,24 @@
+.header-container {
+  background-color: #48B3E2;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.middle-part {
+  flex-grow: 1;
+}
+.padding {
+  padding: 0 10px;
+}
+
+.total {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.order {
+  font-size: 17px;
+}

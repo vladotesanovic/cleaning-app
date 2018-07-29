@@ -1,0 +1,18 @@
+.button {
+  background: white;
+  border: 2px solid #48B3E2;
+  text-align: center;
+  font-size: 13px;
+  color: #5B6F81;
+  flex-grow: 1;
+  border-radius: 3px;
+  padding: 23px 0;
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.primary {
+  background-color: #48B3E2;
+  color: white;
+}
