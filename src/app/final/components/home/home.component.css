@@ -2,22 +2,6 @@
   display: block;
 }
 
-.option {
-  padding: 10px 5%;
-  border-bottom: 1px solid #f4f4f4;
-  color: #5B6F81;
-  text-align: left;
-  width: 90%;
-  font-size: 15px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-}
-
-.left {
-  flex-grow: 1;
-}
-
 .location {
   color: #5B6F81;
   background-color: white;
@@ -33,6 +17,6 @@
   margin: 5px auto;
 }
 
-.active {
-  fill: #8198AC;
+.block {
+  display: block;
 }

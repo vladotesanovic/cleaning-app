@@ -5,6 +5,7 @@ import { FinalRoutingModule } from './final-routing.module';
 import { HomeComponent } from './components/home/home.component';
 import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
+import { OptionComponent } from './components/option/option.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,6 @@ import { FormsModule } from '@angular/forms';
     SharedModule,
     FinalRoutingModule
   ],
-  declarations: [HomeComponent]
+  declarations: [HomeComponent, OptionComponent]
 })
 export class FinalModule { }

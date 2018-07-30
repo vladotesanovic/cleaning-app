@@ -20,10 +20,7 @@
   </div>
   <div class="service-group">
     <div class="service single">
-      <input [ngModel]="( offer$ | async)?.when | date:'yyyy-MM-dd'" type="date" (change)="onDateChange($event)" />
-    </div>
-    <div class="service" >
-
+      <capp-input [model]="( offer$ | async)?.when | date:'yyyy-MM-dd'" type="date" (change)="onDateChange($event)"></capp-input>
     </div>
   </div>
 </div>

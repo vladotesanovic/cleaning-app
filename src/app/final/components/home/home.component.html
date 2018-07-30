@@ -9,39 +9,12 @@
 <div class="services-container margin-5-percent">
   <div class="service-group">
     <div class="service single">
-      <div class="option pointer" (click)="chooseTime('08:00-12:00')">
-        <div class="left">
-          08:00 - 12:00
-        </div>
-        <div class="right">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" transform="translate(1 1)" stroke="#CEDCE8" stroke-width="2"/>
-            <path [ngClass]="{'active': ( offer$ | async)?.time === '08:00-12:00'}" fill-rule="evenodd" clip-rule="evenodd" d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(6 6)" fill="#CEDCE8"/>
-          </svg>
-        </div>
-      </div>
-      <div class="option pointer" (click)="chooseTime('12:00-14:00')">
-        <div class="left">
-          12:00 - 14:00
-        </div>
-        <div class="right">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" transform="translate(1 1)" stroke="#CEDCE8" stroke-width="2"/>
-            <path [ngClass]="{'active': ( offer$ | async)?.time === '12:00-14:00'}"  fill-rule="evenodd" clip-rule="evenodd" d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(6 6)" fill="#CEDCE8"/>
-          </svg>
-        </div>
-      </div>
-      <div class="option pointer" (click)="chooseTime('14:00-20:00')">
-        <div class="left">
-          14:00 - 20:00
-        </div>
-        <div class="right">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" transform="translate(1 1)" stroke="#CEDCE8" stroke-width="2"/>
-            <path [ngClass]="{'active': ( offer$ | async)?.time === '14:00-20:00'}"  fill-rule="evenodd" clip-rule="evenodd" d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(6 6)" fill="#CEDCE8"/>
-          </svg>
-        </div>
-      </div>
+
+      <capp-option value="08:00-12:00" (chooseTime)="chooseTime($event)" [active]="( offer$ | async)?.time === '08:00-12:00'"></capp-option>
+
+      <capp-option value="12:00-14:00" (chooseTime)="chooseTime($event)" [active]="( offer$ | async)?.time === '12:00-14:00'"></capp-option>
+
+      <capp-option value="14:00-20:00" (chooseTime)="chooseTime($event)" [active]="( offer$ | async)?.time === '14:00-20:00'"></capp-option>
 
     </div>
   </div>
@@ -53,14 +26,12 @@
   </div>
   <div class="service-group">
     <div class="service single">
-      <input class="margin" type="text" placeholder="Name"/>
-      <input class="margin" type="text" placeholder="City"/>
-      <input class="margin" type="text" placeholder="Mobile"/>
-      <input class="margin" type="email" placeholder="Email"/>
-      <input class="margin" type="text" placeholder="Your notes"/>
-    </div>
-    <div class="service" >
-
+      <capp-input type="text" placeholder="Name"></capp-input>
+      <capp-input class="margin block" type="text" placeholder="Name"></capp-input>
+      <capp-input class="margin block" type="text" placeholder="City"></capp-input>
+      <capp-input class="margin block" type="text" placeholder="Mobile"></capp-input>
+      <capp-input class="margin block" type="email" placeholder="Email"></capp-input>
+      <capp-input class="margin block" type="text" placeholder="Your notes"></capp-input>
     </div>
   </div>
 
@@ -68,39 +39,12 @@
 
   <div class="service-group">
     <div class="service single">
-      <div class="option">
-        <div class="left">
-          I’ll be home
-        </div>
-        <div class="right">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" transform="translate(1 1)" stroke="#CEDCE8" stroke-width="2"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(6 6)" fill="#CEDCE8"/>
-          </svg>
-        </div>
-      </div>
-      <div class="option">
-        <div class="left">
-          Keys with security
-        </div>
-        <div class="right">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" transform="translate(1 1)" stroke="#CEDCE8" stroke-width="2"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(6 6)" fill="#CEDCE8"/>
-          </svg>
-        </div>
-      </div>
-      <div class="option">
-        <div class="left">
-          Keys under doormat
-        </div>
-        <div class="right">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 22C17.0751 22 22 17.0751 22 11C22 4.92487 17.0751 0 11 0C4.92487 0 0 4.92487 0 11C0 17.0751 4.92487 22 11 22Z" transform="translate(1 1)" stroke="#CEDCE8" stroke-width="2"/>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M6 12C9.31371 12 12 9.31371 12 6C12 2.68629 9.31371 0 6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12Z" transform="translate(6 6)" fill="#CEDCE8"/>
-          </svg>
-        </div>
-      </div>
+
+      <capp-option value="I’ll be home" (chooseTime)="chooseTime($event)" [active]="( offer$ | async)?.waitingAtHome"></capp-option>
+
+      <capp-option value="Keys with security" (chooseTime)="chooseTime($event)" [active]="( offer$ | async)?.keysAndSecurity"></capp-option>
+
+      <capp-option value="Keys under doormat" (chooseTime)="chooseTime($event)" [active]="( offer$ | async)?.keyUnderDoormat"></capp-option>
 
     </div>
   </div>
