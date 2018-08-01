@@ -7,4 +7,4 @@ App is intended for mobile browsers.
 
 ## Demo
 
-https://vladotesanovic.github.io/cleaning-app
+https://cleaning-app-sjgglugavc.now.sh
