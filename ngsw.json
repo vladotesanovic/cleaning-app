@@ -1,0 +1,83 @@
+{
+  "configVersion": 1,
+  "index": "https://vladotesanovic.github.io/cleaning-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://vladotesanovic.github.io/cleaning-app/1.085be487d8095259cba0.js",
+        "https://vladotesanovic.github.io/cleaning-app/2.7696d869d865bd104eac.js",
+        "https://vladotesanovic.github.io/cleaning-app/3.6c61aa4f06d5736622fb.js",
+        "https://vladotesanovic.github.io/cleaning-app/4.a45028e06da655f832b2.js",
+        "https://vladotesanovic.github.io/cleaning-app/5.0923c5242ed12f91f12c.js",
+        "https://vladotesanovic.github.io/cleaning-app/common.7804e6f062b9234a8492.js",
+        "https://vladotesanovic.github.io/cleaning-app/favicon.ico",
+        "https://vladotesanovic.github.io/cleaning-app/index.html",
+        "https://vladotesanovic.github.io/cleaning-app/main.7423677718fe303fc4c1.js",
+        "https://vladotesanovic.github.io/cleaning-app/polyfills.33ae7ba55e2c12e2e97e.js",
+        "https://vladotesanovic.github.io/cleaning-app/runtime.90f69220e018b82514be.js",
+        "https://vladotesanovic.github.io/cleaning-app/styles.2c72fea776b9e0fd1475.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-128x128.png",
+        "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-144x144.png",
+        "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-152x152.png",
+        "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-192x192.png",
+        "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-384x384.png",
+        "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-512x512.png",
+        "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-72x72.png",
+        "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://vladotesanovic.github.io/cleaning-app/1.085be487d8095259cba0.js": "ea8e71edcaec98feb8a5a59d34cd8846328a3e58",
+    "https://vladotesanovic.github.io/cleaning-app/2.7696d869d865bd104eac.js": "6cb171f4f989e862437d775c18a961f81727371c",
+    "https://vladotesanovic.github.io/cleaning-app/3.6c61aa4f06d5736622fb.js": "4b3e029c4eb0a79d3ba483540509c77344fb0e1d",
+    "https://vladotesanovic.github.io/cleaning-app/4.a45028e06da655f832b2.js": "cf213a45e5c6091a8a8ba5b3b91004b04547651f",
+    "https://vladotesanovic.github.io/cleaning-app/5.0923c5242ed12f91f12c.js": "fd025ce9621139fc8307912efa660d4569e70cde",
+    "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://vladotesanovic.github.io/cleaning-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://vladotesanovic.github.io/cleaning-app/common.7804e6f062b9234a8492.js": "e91b89281efc90b2a99f92deb258f5ae3fefecfe",
+    "https://vladotesanovic.github.io/cleaning-app/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://vladotesanovic.github.io/cleaning-app/index.html": "19a2de25373a8b4299602e8a5e1a905e837fd107",
+    "https://vladotesanovic.github.io/cleaning-app/main.7423677718fe303fc4c1.js": "932d63244c8ff9efb5b0c41ead52992f74759c7a",
+    "https://vladotesanovic.github.io/cleaning-app/polyfills.33ae7ba55e2c12e2e97e.js": "5b2540146b05bf764c52589854a7d2a96fbe9d2d",
+    "https://vladotesanovic.github.io/cleaning-app/runtime.90f69220e018b82514be.js": "2211e4801d7962f29d2772ceb3eaf1083d54b131",
+    "https://vladotesanovic.github.io/cleaning-app/styles.2c72fea776b9e0fd1475.css": "e4a76d047baebccbee290a34eb175ee4e6a8e1df"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
