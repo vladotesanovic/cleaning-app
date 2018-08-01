@@ -24,4 +24,8 @@ export class HomeComponent implements OnInit {
     this.offerService.setTime(timeSpan);
   }
 
+  goToHome() {
+    this.router.navigateByUrl('/step1');
+  }
+
 }
