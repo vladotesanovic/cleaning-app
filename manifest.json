@@ -4,7 +4,7 @@
   "theme_color": "#48b3e2",
   "background_color": "#fafafa",
   "display": "standalone",
-  "scope": "/",
+  "scope": "/cleaning-app/",
   "start_url": "index.html",
   "icons": [
     {
