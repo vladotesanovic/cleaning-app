@@ -1,7 +1,7 @@
 {
-  "name": "cleaning-app",
-  "short_name": "cleaning-app",
-  "theme_color": "#1976d2",
+  "name": "Cleaning Service",
+  "short_name": "CA",
+  "theme_color": "#48b3e2",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/cleaning-app/",
